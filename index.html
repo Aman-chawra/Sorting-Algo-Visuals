@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="array-inputs">
+        <p style="font-size: 15px; padding:1px 0px; margin-top:1px;">Size of the array:</p>
+        <input id="a_size" type="range" min=20 max=150 step=1 value=80>
+        <p style="font-size: 15px; padding:1px 0px; margin-top:8px;">Speed of Algorithm:</p>
+        <input id="a_speed" type="range" min=1 max=5 value=80>
+        <button id="a_generate">Generate new Array!</button>
+      </div>
+
+      <div class="header_right">
+        <p class="nav-heading">Sorting Algo-Visuals</p>
+        <div class="algos">
+          <button>Bubble</button>
+          <button>Selection</button>
+          <button>Insertion</button>
+          <!-- <button style="margin-right: -40px;">Insertion</button>
+          <button style="margin-right: -35px;">Merge</button> -->
+          <button>Merge</button>
+          <button>Quick</button>
+          <button>Heap</button>
+          <!-- <button style="margin-right: 25px;">Quick</button> -->
+          <!-- <button style="margin-left: -100px;">Heap</button> -->
+        </div>
+
+      </div>
+    </nav>
+
+
+    </header>
+    <section>
+
+      <div id="Info_Cont1">
+          <!-- <p>This is First Container</p> -->
+      </div>
+
+      <div id="array_container">
+
+      </div>
+
+      <div id="Info_Cont2">
+          <!-- <p>This is Second Container</p> -->
+      </div>
+
+  </section>
+    <!-- <footer> -->
+      <section class="footer1">
+        <h4>copyright@theprodudes-2021</h4>
+      </section>
+        <!-- <h1>copyright@theprodudes-2021</h1> -->
+
+    <!-- </footer> -->
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/visualizations.js"></script>
+
+    <script src="./scripts/bubble_sort.js"></script>
+    <script src="./scripts/insertion_sort.js"></script>
+    <script src="./scripts/selection_sort.js"></script>
+    <script src="./scripts/merge_sort.js"></script>
+    <script src="./scripts/quick_sort.js"></script>
+    <script src="./scripts/heap_sort.js"></script>
+
+  </body>
+</html>

@@ -6,7 +6,7 @@ function Insertion_sort()
     div_update(divs[j],div_sizes[j],"yellow");//Color update
     var key = div_sizes[j];
     var i=j-1;
-    while(i>0 && div_sizes[i]>key)
+    while(i>=0 && div_sizes[i]>key)
     {
       div_update(divs[i],div_sizes[i],"red");
       div_update(divs[i+1],div_sizes[i+1],"red");
